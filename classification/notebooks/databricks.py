@@ -13,6 +13,11 @@
 
 # COMMAND ----------
 
+# MAGIC %md
+# MAGIC test code
+
+# COMMAND ----------
+
 # MAGIC %md ### Start with a recipe:
 
 # COMMAND ----------
@@ -116,5 +121,3 @@ training_data.describe()
 
 trained_model = r.get_artifact("model")
 print(trained_model)
-
-# COMMAND ----------
